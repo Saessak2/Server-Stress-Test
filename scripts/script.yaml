@@ -1,0 +1,13 @@
+config:
+  target: "http://15.164.100.246:8080" # localhost:8080? 34.202.123.109:80?
+  phases:
+    - duration: 30 # 몇 초동안 테스트를 할 것인가?
+    # 어떤 기능을 
+      arrivalRate: 2 # 초당 몇명이 접속할 것인가?
+      name: Warm up
+
+scenarios:
+  - name: "seoul - weather check"
+    flow:
+      - post:
+          url: "/my-plant/4/check"

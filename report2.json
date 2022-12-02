@@ -1,0 +1,314 @@
+{
+  "aggregate": {
+    "timestamp": "2022-12-01T11:35:06.827Z",
+    "scenariosCreated": 300,
+    "scenariosCompleted": 0,
+    "requestsCompleted": 0,
+    "latency": {
+      "min": null,
+      "max": null,
+      "median": null,
+      "p95": null,
+      "p99": null
+    },
+    "rps": {
+      "count": 300,
+      "mean": 4.73
+    },
+    "scenarioDuration": {
+      "min": null,
+      "max": null,
+      "median": null,
+      "p95": null,
+      "p99": null
+    },
+    "scenarioCounts": {
+      "dict3 get": 300
+    },
+    "errors": {
+      "ECONNREFUSED": 299,
+      "ETIMEDOUT": 1
+    },
+    "codes": {},
+    "matches": 0,
+    "customStats": {},
+    "counters": {},
+    "scenariosAvoided": 0,
+    "phases": [
+      {
+        "duration": 60,
+        "arrivalRate": 5,
+        "name": "Warm up"
+      }
+    ]
+  },
+  "intermediate": [
+    {
+      "timestamp": "2022-12-01T11:34:13.101Z",
+      "scenariosCreated": 49,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 0,
+      "latency": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 49,
+        "mean": 5.02
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "dict3 get": 49
+      },
+      "errors": {
+        "ECONNREFUSED": 30
+      },
+      "codes": {},
+      "matches": 0,
+      "latencies": [],
+      "customStats": {},
+      "counters": {},
+      "concurrency": 19,
+      "pendingRequests": 49,
+      "scenariosAvoided": 0
+    },
+    {
+      "timestamp": "2022-12-01T11:34:23.104Z",
+      "scenariosCreated": 50,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 0,
+      "latency": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 50,
+        "mean": 5
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "dict3 get": 50
+      },
+      "errors": {
+        "ECONNREFUSED": 53,
+        "ETIMEDOUT": 1
+      },
+      "codes": {},
+      "matches": 0,
+      "latencies": [],
+      "customStats": {},
+      "counters": {},
+      "concurrency": 15,
+      "pendingRequests": 99,
+      "scenariosAvoided": 0
+    },
+    {
+      "timestamp": "2022-12-01T11:34:33.116Z",
+      "scenariosCreated": 50,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 0,
+      "latency": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 50,
+        "mean": 5
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "dict3 get": 50
+      },
+      "errors": {
+        "ECONNREFUSED": 50
+      },
+      "codes": {},
+      "matches": 0,
+      "latencies": [],
+      "customStats": {},
+      "counters": {},
+      "concurrency": 15,
+      "pendingRequests": 149,
+      "scenariosAvoided": 0
+    },
+    {
+      "timestamp": "2022-12-01T11:34:43.432Z",
+      "scenariosCreated": 50,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 0,
+      "latency": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 50,
+        "mean": 4.85
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "dict3 get": 50
+      },
+      "errors": {
+        "ECONNREFUSED": 50
+      },
+      "codes": {},
+      "matches": 0,
+      "latencies": [],
+      "customStats": {},
+      "counters": {},
+      "concurrency": 15,
+      "pendingRequests": 199,
+      "scenariosAvoided": 0
+    },
+    {
+      "timestamp": "2022-12-01T11:34:53.279Z",
+      "scenariosCreated": 50,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 0,
+      "latency": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 50,
+        "mean": 5.09
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "dict3 get": 50
+      },
+      "errors": {
+        "ECONNREFUSED": 50
+      },
+      "codes": {},
+      "matches": 0,
+      "latencies": [],
+      "customStats": {},
+      "counters": {},
+      "concurrency": 15,
+      "pendingRequests": 249,
+      "scenariosAvoided": 0
+    },
+    {
+      "timestamp": "2022-12-01T11:35:03.171Z",
+      "scenariosCreated": 50,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 0,
+      "latency": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 50,
+        "mean": 5.07
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "dict3 get": 50
+      },
+      "errors": {
+        "ECONNREFUSED": 50
+      },
+      "codes": {},
+      "matches": 0,
+      "latencies": [],
+      "customStats": {},
+      "counters": {},
+      "concurrency": 15,
+      "pendingRequests": 299,
+      "scenariosAvoided": 0
+    },
+    {
+      "timestamp": "2022-12-01T11:35:06.762Z",
+      "scenariosCreated": 1,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 0,
+      "latency": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "rps": {
+        "count": 1,
+        "mean": 0.28
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "dict3 get": 1
+      },
+      "errors": {
+        "ECONNREFUSED": 16
+      },
+      "codes": {},
+      "matches": 0,
+      "latencies": [],
+      "customStats": {},
+      "counters": {},
+      "concurrency": 0,
+      "pendingRequests": 300,
+      "scenariosAvoided": 0
+    }
+  ]
+}
