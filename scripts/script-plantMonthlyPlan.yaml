@@ -1,0 +1,12 @@
+config:
+  target: "http://13.125.3.45:8080"
+  phases:
+    - duration: 30
+      arrivalRate: 5
+      name: plantMonthlyPlan
+
+scenarios:
+  - name: "plan - plantMonthly"
+    flow:
+      - get:
+          url: "/plan/2022/12/my-plant=103"

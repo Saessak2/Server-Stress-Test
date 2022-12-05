@@ -1,0 +1,12 @@
+config:
+  target: "http://13.125.3.45:8080"
+  phases:
+    - duration: 30
+      arrivalRate: 5
+      name: diaryOne
+
+scenarios:
+  - name: "diary - plantOne"
+    flow:
+      - get:
+          url: "/diaries/readDiaryByPlant/79"
