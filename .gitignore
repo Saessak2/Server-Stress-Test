@@ -119,3 +119,6 @@ dist
 
 # security
 package-lock.json
+
+# custom
+report-viewer
