@@ -1,0 +1,12 @@
+config:
+  target: "https://mylinking.shop"
+  phases:
+    - duration: 60
+      arrivalRate: 100
+      name: getTodo
+
+scenarios:
+  - name: "get - todo"
+    flow:
+      - get:
+          url: "/todos/list/today/user/14/urgent"

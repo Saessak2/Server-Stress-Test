@@ -1,0 +1,12 @@
+config:
+  target: "https://mylinking.shop"
+  phases:
+    - duration: 60
+      arrivalRate: 100
+      name: getChatting
+
+scenarios:
+  - name: "get - chatting"
+    flow:
+      - get:
+          url: "/chatroom/15/chat-list?size=20&page=0"
